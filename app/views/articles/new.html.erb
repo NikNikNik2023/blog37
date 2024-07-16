@@ -1,6 +1,6 @@
 <h1>New article</h1>
 
-<%= form_for :article do |f| %>
+<%= form_for :article, url: articles_path do |f| %>
   <p>
     Title<br />
     <%= f.text_field :title %>
@@ -8,7 +8,7 @@
 
   <p>
     Text<br />
-    <%= f.text_area :title %>
+    <%= f.text_area :text %>
   </p>
 
   <p>
