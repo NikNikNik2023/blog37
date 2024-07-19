@@ -5,18 +5,15 @@
     <%= f.label :title %><br />
     <%= f.text_field :title %>
   </p>
-<% end %>
 
-<%= form_for :article do |f| %>
   <p>
-    <%= f.label :title %><br />
-    <%= f.text_field :title %>
+    <%= f.label :text %><br />
+    <%= f.text_area :text %>
   </p>
-<% end %>
 
-<%= form_for :article do |f| %>
+
   <p>
-    <%= f.label :title %><br />
-    <%= f.text_field :title %>
+    <%= f.submit %>
   </p>
+
 <% end %>
