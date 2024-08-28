@@ -56,4 +56,5 @@ gem 'devise'
 group :test, :development do
   gem "rspec-rails", "~> 6.1.4"
   gem 'capybara', '>= 3.26'
+  gem "shoulda-matchers"
 end
