@@ -58,4 +58,5 @@ group :test, :development do
   gem 'capybara', '>= 3.26'
   gem "shoulda-matchers"
   gem 'rexml'
+  gem "factory_bot_rails"
 end
