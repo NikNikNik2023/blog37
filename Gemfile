@@ -59,4 +59,5 @@ group :test, :development do
   gem "shoulda-matchers"
   gem 'rexml'
   gem "factory_bot_rails"
+  gem 'database_cleaner'
 end
